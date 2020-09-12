@@ -1,0 +1,80 @@
+*{margin: 0; padding: 0; outline: 0;}
+.wrapper {
+    width: 585px;
+    background: #DFE7E9;
+    margin: 90px auto;
+    padding: 25px 56px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.containar {
+    background: #FFFFFF;
+    padding: 30px 40px 45px 40px;
+    position: relative;
+}
+.containar h2 {
+    color: #333333;
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.containar p {
+    color: #BDB9BF;
+    text-align: center;
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-bottom: 25px;
+}
+.social{}
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    height: 40px;
+    width: 138px;
+    /* border: 2px solid; */
+    line-height: 40px;
+    border-radius: 50px;
+    margin: 0px 10px 25px 16px;
+    cursor: pointer;
+}
+.social ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.social ul li a i {
+    padding: 0px 15px;
+}
+p.or {
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #E3E3E3;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    /* margin: 25px auto; */
+    position: absolute;
+    top: 200px;
+    left: 281px;
+}
+.form .easy {
+    width: 98%;
+    padding: 12px 10px;
+    border-radius: 40px;
+    border: 1px solid #CECECE;
+    margin-top: 18px;
+}
+.form .btn{
+    width: 102%;
+    padding: 12px 10px;
+    border-radius: 40px;
+    border: 1px solid #CECECE;
+    margin-top: 18px;
+    color: #fff;
+    background: #5CB85C;
+    font-size: 16px;
+}
+.form .easy:first-child{
+    margin-top: 37px;
+}
